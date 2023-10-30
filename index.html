@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifolio</title>
+</head>
+<body>
+
+  
+        <nav class="menu">
+            <ul>
+                <li> <a href="#"> Inicio</a></li>
+                <li> <a href="#"> Sobre Mim </a></li>
+                <li> <a href="#"> Contato  </a></li>
+            
+                </ul>
+        </nav>
+
+
+
+        
+        <div class="header">
+            <h1> Lívia Correia</h1>
+            <p> Desenvolvedora Front-End</p>
+        </div>
+
+        <div class="conteudo">
+            <h3> Sobre mim</h3>
+            <p> Meu nome é Lívia, atualmente estou cursando Graduação <br> 
+                em Sistemas da Informação na Universidade Nove de <br>
+                 Julho e apos me formar, tenho a intenção de realizar um <br>
+                 curso técnico em Analise e Desenvolvimento de Softwares <br>
+                 para começar na carreira de desenvolvedora Front-end.</p>
+                 <img src="img_C:>users>home>pictures>1644590326047.jpg" alt="Foto">
+
+
+       
+
+        </div>
+
+        <selection>
+
+            <div class="container-revelar1">
+                <h3> Minhas Habilidades </h3>
+                <label> Conhecimento com HTML </label>
+                     <progress value="100" max="100"></progress> <br>
+                <label> Conhecimento com Css</label> 
+                     <progress value="80" max="100"></progress> <br>
+                <label>Conhecimento JavaScript</label>
+                     <progress value="87" max="100"></progress>
+            </div>
+
+        </selection>
+        
+       
+
+        <footer class="footer">
+            <h2> Portifolio Lívia Correia </h2>
+            <p> Direitos autorais 2022</p>
+        </footer>
+
+ 
+    
+
+
+    <style type="text/css">
+        
+        .menu ul li{
+            
+            background-color: rgb(44, 43, 43);
+            color: white;
+            float: left;
+
+            width: 330px; /*comprimento do fundo cinza */
+            height: 50px; /*largura do fundo cinza*/
+            text-align: center;
+            line-height: 30px;  /* alinhamento de inicio, sobre e contato*/
+            font-size: 18px;
+            font-weight: 550;
+
+        }
+        .menu ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu ul li{
+            display: inline-block;
+        }
+        .menu ul li a{
+            display: inline-block;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .menu ul li a:hover{
+            text-decoration: underline  #cba087 5px; 
+            /*grossura e cor da linha que fica embaixo de inicio,sobre mim e contato*/   
+        }
+
+        .header{
+            padding: 80px;
+            text-align: center;
+            background: black;
+            color: #cba087;
+
+        }
+        .header h1{
+            font-size: 40px;
+        }
+        .header p{ /*linha decorada no dev front-end*/
+            text-decoration: underline overline #cba087 8px;
+        }
+
+        .conteudo{
+            background-color: whitesmoke;
+            padding: 80px;
+        }
+        .conteudo h3{
+            margin-left: 25%;
+            text-decoration: underline #F3C5C5 2px;
+            
+        }
+
+        .footer{
+            background-color:black;
+            padding: 3px;
+            text-align: center;
+            color: #cba087;
+            margin-top: 5%;
+
+        }
+        .revelar1{
+            position: relative;
+            transform: translateY( 144px);
+            opacity: 0;
+            transition: 1s all ease;
+        }
+        .revelar1.active{
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+
+
+
+
+
+    </style>
+</body>
+</html>
